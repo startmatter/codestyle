@@ -1,0 +1,11 @@
+flake8
+flake8-blind-except             # https://github.com/elijahandrews/flake8-blind-except
+flake8-bugbear                  # https://github.com/PyCQA/flake8-bugbear
+flake8-builtins                 # https://github.com/gforcada/flake8-builtins
+flake8-debugger                 # https://github.com/JBKahn/flake8-debugger
+flake8-print                    # https://github.com/JBKahn/flake8-print
+flake8-quotes                   # https://github.com/zheller/flake8-quotes
+flake8-todo                     # https://github.com/schlamar/flake8-todo
+flake8-variables-names          # https://github.com/best-doctor/flake8-variables-names
+pep8-naming                     # https://github.com/PyCQA/pep8-naming
+
