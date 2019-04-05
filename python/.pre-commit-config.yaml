@@ -1,0 +1,14 @@
+repos:
+  - repo: https://github.com/ambv/black
+    rev: stable
+    hooks:
+      - id: black
+        args: ['--line-length', '120']
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: master
+    hooks:
+      - id: flake8
+        additional_dependencies: [flake8-blind-except,flake8-bugbear,flake8-builtins,flake8-debugger,
+                                  flake8-print,flake8-quotes,flake8-todo,flake8-variables-names,pep8-naming,
+                                  flake8-per-file-ignores]
+        args: ['--max-line-length', '120', '--ignore', 'W503,C814,T000', '--inline-quotes', 'double']
